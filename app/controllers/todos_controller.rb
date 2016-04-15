@@ -3,7 +3,7 @@ class TodosController < ApplicationController
 
   # GET /todos
   # GET /todos.json
-  def indez
+  def index
     @todos = Todo.all
   end
 
