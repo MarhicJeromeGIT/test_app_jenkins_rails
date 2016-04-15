@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20160415071534) do
 
-  create_table "todos", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
+  create_table "todos", force: :cascade do |t|
     t.string   "name"
     t.boolean  "finished"
     t.datetime "created_at", null: false
